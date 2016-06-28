@@ -3,7 +3,7 @@
 ## Installation
 With NPM
 
-        npm install vue-snackbar
+        npm install 'vue-snackbar'
 
 ## Usage
 
