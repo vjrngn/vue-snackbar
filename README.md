@@ -30,3 +30,4 @@ In the HTML :
 | message        	| Message text to be shown on the snackbar.                                       	|
 | action-text    	| The text of the action button.                                                  	|
 | action-handler 	| Your (the user) custom click handler for when the snackbar's button is clicked. 	|
+| display-when 	  | Specifies an event after which the snackbar is to be displayed. 	                |

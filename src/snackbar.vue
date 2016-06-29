@@ -20,7 +20,16 @@
         timeout: {
           required: false,
           default: 2000
+        },
+        displayWhen: {
+          type: 'String'
         }
+      },
+
+      ready: function() {
+        this.$on(this.displayWhen, function(snackbarData) {
+          this.show(snackbarData);
+        })
       },
 
       data: function() {
