@@ -21,7 +21,7 @@ With NPM
 
 In the HTML :
 
-        <snackbar v-if="messageSent" message="Message sent!" action-text="UNDO" :action-handler="myHandler()"></snackbar>
+        <snackbar display-when="MessageHasBeenDeleted" message="Message Deleted" action-text="Undo" timeout="5000" :action-handler="handleAction()"></snackbar>
 
 ## Props
 
